@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GameVault PC - PC Games</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+        🎮 Game<span>Vault</span>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#games">Games</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About</a>
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="small-title">WELCOME TO GAMEVAULT</p>
+
+        <h1>Discover Your Next<br><span>PC Game</span></h1>
+
+        <p>
+            Explore games, discover new titles and find games
+            that you are authorized to download.
+        </p>
+
+        <a href="#games" class="hero-button">
+            Explore Games →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- Advertisement -->
+
+<div class="ad-box">
+
+    <span>ADVERTISEMENT</span>
+
+</div>
+
+
+<section class="container">
+
+    <div class="section-title">
+
+        <div>
+            <p class="small-title">DISCOVER</p>
+            <h2>Featured Games</h2>
+        </div>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="🔎 Search games..."
+        >
+
+    </div>
+
+
+    <div class="filters">
+
+        <button onclick="filterGames('All')">All</button>
+
+        <button onclick="filterGames('Action')">
+            Action
+        </button>
+
+        <button onclick="filterGames('Adventure')">
+            Adventure
+        </button>
+
+        <button onclick="filterGames('Racing')">
+            Racing
+        </button>
+
+        <button onclick="filterGames('Puzzle')">
+            Puzzle
+        </button>
+
+        <button onclick="filterGames('Sports')">
+            Sports
+        </button>
+
+    </div>
+
+
+    <div id="games" class="games-grid"></div>
+
+</section>
+
+
+<!-- Advertisement -->
+
+<div class="ad-box large">
+
+    <span>ADVERTISEMENT</span>
+
+</div>
+
+
+<section id="categories" class="categories">
+
+    <div class="container">
+
+        <p class="small-title">BROWSE</p>
+
+        <h2>Game Categories</h2>
+
+        <div class="category-grid">
+
+            <div onclick="filterGames('Action')">
+                🔫
+                <h3>Action</h3>
+            </div>
+
+            <div onclick="filterGames('Adventure')">
+                🗺️
+                <h3>Adventure</h3>
+            </div>
+
+            <div onclick="filterGames('Racing')">
+                🏎️
+                <h3>Racing</h3>
+            </div>
+
+            <div onclick="filterGames('Puzzle')">
+                🧩
+                <h3>Puzzle</h3>
+            </div>
+
+            <div onclick="filterGames('Sports')">
+                ⚽
+                <h3>Sports</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="about" class="about">
+
+    <div class="container">
+
+        <h2>About GameVault</h2>
+
+        <p>
+            GameVault is a PC gaming discovery website.
+            Games listed here should be games that you own,
+            created yourself, or have permission to distribute.
+        </p>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="logo">
+        🎮 Game<span>Vault</span>
+    </div>
+
+    <p>
+        © 2026 GameVault. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="games.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
