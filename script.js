@@ -49,7 +49,6 @@ function displayGames(list) {
                 <a
                     class="download"
                     href="${game.download}"
-                    target="_blank"
                 >
                     📥 Download
                 </a>
