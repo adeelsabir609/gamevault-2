@@ -27,7 +27,7 @@ for (let i = 1; i <= 2500; i++) {
             `https://picsum.photos/seed/game-${i}/800/450`,
 
         // Replace this with an authorized download URL
-        download: "#"
+        download: "downloads/MyGame.zip"
 
     });
 
